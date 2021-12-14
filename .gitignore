@@ -1,0 +1,8 @@
+.DS_Store
+.elixir_ls
+tags
+_build
+Dockerfile
+ax_webclient/
+axentity/
+axrepo/

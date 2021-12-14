@@ -1,0 +1,12 @@
+#!/bin/sh
+
+awssh docker ps | grep altex
+
+cd ax_webclient \
+  && docker build . -t altex \
+  && docker tag altex iboard/altex:latest \
+  && docker push iboard/altex:latest \
+  && cd -
+
+awssh /home/ec2-user/iboard.cc/upgrade-altex
+awssh docker ps | grep altex

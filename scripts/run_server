@@ -1,0 +1,6 @@
+#!/bin/sh
+
+cd ax_webclient 
+MIX_ENV=dev
+cp assets/static/images/* priv/static/images/
+mix phx.digest && mix phx.server
