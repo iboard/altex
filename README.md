@@ -9,7 +9,7 @@ mix-projects. Something like a mix-ubrella project but without the umbrella ;-)
 
 ## Projects
 
-- `axentity` ... `Entity` to wrap any kind of data (think Ecto)
-- `axrepo` ... `Repo` to  store entities in memory, to disk, or where not.
-- `ax_webclient` ... `WebClient` is a simple blog implementation using 
+- [`axentity`](https://github.com/iboard/axentity) ... `Entity` to wrap any kind of data (think Ecto)
+- [`axrepo`](https://github.com/iboard/axrepo) ... `Repo` to  store entities in memory, to disk, or where not.
+- [`ax_webclient`](https://github.com/iboard/ax_webclient) ... `WebClient` is a simple blog implementation using 
   `NimblePublisher` and the Altex-tools as dependencies for a _Phoenix_-website.
