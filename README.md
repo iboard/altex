@@ -22,3 +22,14 @@ mix-projects. Something like a mix-ubrella project but without the umbrella ;-)
 
 
 
+[axentity]: https://github.com/iboard/axentity
+[CIB axentity]: https://github.com/iboard/axentity/actions/workflows/elixir.yml/badge.svg
+[DB axentity]: https://img.shields.io/badge/docs-hexpm-blue.svg
+
+[axrepo]: https://github.com/iboard/axrepo
+[CIB axrepo]: https://github.com/iboard/axrepo/actions/workflows/elixir.yml/badge.svg
+[DB axrepo]: https://img.shields.io/badge/docs-hexpm-blue.svg
+
+[ax_webclient]: https://github.com/iboard/ax_webclient
+[CIB ax_webclient]: https://github.com/iboard/ax_webclient/actions/workflows/elixir.yml/badge.svg
+[DB ax_webclient]: https://img.shields.io/badge/docs-hexpm-blue.svg
