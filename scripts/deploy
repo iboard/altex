@@ -2,10 +2,10 @@
 
 awssh docker ps | grep altex
 
-cd ax_webclient \
-  && docker build . -t altex \
-  && docker tag altex iboard/altex:latest \
-  && docker push iboard/altex:latest \
+cd altex_iboard_cc \
+  && docker build . $* -t altex_iboard_cc \
+  && docker tag altex_iboard_cc iboard/altex_iboard_cc:latest \
+  && docker push iboard/altex_iboard_cc:latest \
   && cd -
 
 awssh /home/ec2-user/iboard.cc/upgrade-altex
