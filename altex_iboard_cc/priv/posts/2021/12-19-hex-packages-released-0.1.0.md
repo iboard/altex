@@ -4,7 +4,11 @@
   tags: ["andi", "2021", "altex", "hex"]
 }
 ---
-# Version 0.1.0 released
+# Version 0.1.0 released (2021-12-19)
+# Version 0.1.1 released (2021-12-20)
+
+There is no difference in the code between 0.1.0 and 0.1.1. 0.1.1 was necessary
+to fix relations between the documentation of three packages.
 
 The first "releasable" versions of `axrepo`, `axentity`, and `ax_webclient`
 are published at hex.pm
