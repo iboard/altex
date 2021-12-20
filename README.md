@@ -7,15 +7,20 @@ a clean architecture in your application.
 This repository, "altex" contains scripts to test, build, and deploy all of the
 mix-projects. Something like a mix-ubrella project but without the umbrella ;-)
 
-## Projects
+## Mix projects
 
-- [`axentity`](https://github.com/iboard/axentity) ... `Altex.Entity` to wrap any kind 
-  of data (think Ecto)
-- [`axrepo`](https://github.com/iboard/axrepo) ... `Altex.Repo` to  store entities in
-  memory, to disk, or where not.
-- [`ax_webclient`](https://github.com/iboard/ax_webclient) ... `Altex.WebClient` is a
-  simple blog implementation, using 
-  [NimblePublisher][] and the Altex-tools as dependencies for a _Phoenix_-website.
+- `../[axentity][]` A general "Entity" protocol. Entities are wrapper around any
+   valid term and makes it possible to store those data in a "Repository".
+
+- `../[axrepo][]` A general "Data repository" to persist and load `Entities` from
+  somewhere. Axrepo provides an In-Memory and a On-Disk implementation. If
+  you think an application without a SQL-database isn't a real application,
+  its up to you to just implement a SQL-implementation.
+
+- `../[ax_webclient][]` This package. [See in action...](https://altex.iboard.cc)
+  The web-page made out from path `altex/altex_iboard_cc` in this code repository.
+  
+### Project states
 
 |mix project|CI|documentation|
 |-----------|--|-------------|
@@ -23,9 +28,19 @@ mix-projects. Something like a mix-ubrella project but without the umbrella ;-)
 | [axrepo][] | [![CIB axrepo][]](https://github.com/iboard/axrepo/actions/workflows/elixir.yml) | [![DB axrepo][]](https://hexdocs.pm/axrepo) |
 | [ax_webclient][] | [![CIB ax_webclient][]](https://github.com/iboard/ax_webclient/actions/workflows/elixir.yml) | [![DB ax_webclient][]](https://hexdocs.pm/ax_webclient) |
 
+ 
+## Hex Packages
+
+- [axentity hex.pm][]
+- [axrepo hex.pm][]
+- [ax_webclient hex.pm][]
+
+
 ## Blog
 
-See [Altex' Blog][] to see `ax_webclient` in action.
+Visit [Altex' Blog][] to see `ax_webclient` in action. The source of the entire blog,
+including the posts, can be find here, in `./altex_iboard_cc/` which is just a copy
+of `ax_webclient` but with the posts added in `priv/posts/...`.
 
 
 
@@ -43,3 +58,8 @@ See [Altex' Blog][] to see `ax_webclient` in action.
 
 [NimblePublisher]: https://github.com/dashbitco/nimble_publisher
 [Altex' Blog]: https://altex.iboard.cc
+
+[axentity hex.pm]: https://hex.pm/packages/axentity
+[axrepo hex.pm]: https://hex.pm/packages/axrepo
+[ax_webclient hex.pm]: https://hex.pm/packages/ax_webclient
+
