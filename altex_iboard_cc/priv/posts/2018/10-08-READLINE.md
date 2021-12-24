@@ -52,4 +52,7 @@ Even setting an editor (`export EDITOR=vim` for example) is possible. Set that y
     Rotate the kill-ring, and yank the new top. You can only do this if the prior command is C-y or M-y.
 
 
+## BASH Cheat Sheet
 
+2021-12-23, As suggested by Marc Wilson, take a look at the 
+[BASH Cheat Sheet](https://www.pcwdld.com/bash-cheat-sheet)
