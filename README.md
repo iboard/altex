@@ -17,7 +17,8 @@ mix-projects. Something like a mix-ubrella project but without the umbrella ;-)
   you think an application without a SQL-database isn't a real application,
   its up to you to just implement a SQL-implementation.
 
-- `../[ax_webclient][]` This package. [See in action...](https://altex.iboard.cc)
+- `../[ax_webclient][]` This package. 
+- [See in action at altex.iboarc.cc](https://altex.iboard.cc)
   The web-page made out from path `altex/altex_iboard_cc` in this code repository.
   
 ### Project states
