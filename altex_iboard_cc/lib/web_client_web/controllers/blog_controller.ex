@@ -42,7 +42,8 @@ defmodule WebClientWeb.BlogController do
     render(conn, "index.html",
       posts: posts,
       pagination: pagination,
-      tags: all_tags()
+      tags: all_tags(),
+      tag: nil
     )
   end
 
@@ -57,5 +58,39 @@ defmodule WebClientWeb.BlogController do
       |> Enum.find(fn p -> p.id == id end)
 
     render(conn, "read.html", post: post)
+  end
+
+  #
+  # GET /tags/:tag
+  def tags(conn, %{"tag" => tag} = params) do
+    page = (params["page"] || "1") |> String.to_integer()
+    per_page = (params["per_page"] || "2") |> String.to_integer()
+
+    pages =
+      all_posts()
+      |> Enum.filter(fn post ->
+        String.downcase(tag) in Enum.map(post.tags, &String.downcase(&1))
+      end)
+      |> Enum.chunk_every(per_page)
+
+    page = if page > Enum.count(pages), do: Enum.count(pages), else: page
+    page = if page < 1, do: 1, else: page
+
+    posts = Enum.at(pages, page - 1)
+
+    pagination = [
+      tag: tag,
+      tags: all_tags(),
+      page: page,
+      per_page: per_page,
+      pages: Enum.count(posts)
+    ]
+
+    render(conn, "index.html",
+      posts: posts,
+      pagination: pagination,
+      tag: tag,
+      tags: all_tags()
+    )
   end
 end
