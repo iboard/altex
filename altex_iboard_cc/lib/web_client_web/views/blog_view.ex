@@ -31,17 +31,31 @@ defmodule WebClientWeb.BlogView do
     """
   end
 
+  def post_tags(assigns) do
+    ~H"""
+    <%= for tag <- @post.tags |> Enum.map(&String.downcase/1) |> Enum.uniq() |> Enum.sort do %>
+      <%= if tag == @tag do %>
+        <a class="font-semibold" href={ "/tags/#{tag}" }><%= tag %></a>
+      <% else %>
+        <a class="text-gray-400" href={ "/tags/#{tag}" }><%= tag %></a>
+      <% end %>
+    <% end %>
+    """
+  end
+
   def pagination(assigns) do
     ~H"""
-    <% prefix = if @tag,  do: "/tags/#{@tag}", else: "/" %>
-    <div class="pagination">
-      <%= for p <- (1..@pagination[:pages]) do %>
-        <%= link("#{p}",
-          to: "#{prefix}?page=#{p}&per_page=#{@pagination[:per_page]}",
-          class: "page " <> (if @pagination[:page] == p, do: "active", else: "inactive") )
-        %>
-      <% end %>
-    </div>
+    <%= if @pagination[:pages] > 1 do %>
+      <% prefix = if @tag,  do: "/tags/#{@tag}", else: "/" %>
+      <div class="pagination">
+        <%= for p <- (1..@pagination[:pages]) do %>
+          <%= link("#{p}",
+            to: "#{prefix}?page=#{p}&per_page=#{@pagination[:per_page]}",
+            class: "page " <> (if @pagination[:page] == p, do: "active", else: "inactive") )
+          %>
+        <% end %>
+      </div>
+    <% end %>
     """
   end
 
