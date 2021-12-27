@@ -16,8 +16,7 @@ It is in a very early stage, and a lot of work will be necessary to make it a ma
 
 ## Usage
 
-{% highlight elixir %}
-
+```
 Bucket.bucket("shopping list")
  |> Bucket.put(1, "Milk")
  |> Bucket.put(2, "Bread")
@@ -34,6 +33,6 @@ Bucket.values("shopping list")
 
 Bucket.keys("shopping list")
 # [1,2]
-{% endhighlight %}
+```
 
 The keys, of course, can be anything. It is not restricted to integers.

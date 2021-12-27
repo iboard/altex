@@ -25,38 +25,35 @@ Sources can be from simple "endless counters" to "clocks,"
 Datasource also provides a module `Datasource.DataStage` which
 can be used as [GenStage producer][], reading data from a `Datasource` on demand.
 
-  {% highlight elixir %}
+```elixir
+# Rememnber consumed events in state
+defmodule ConsumerSpy do
+  use GenStage
 
-      # Rememnber consumed events in state
-      defmodule ConsumerSpy do
-        use GenStage
+  def start_link(), do: GenStage.start_link(ConsumerSpy, [])
+  def init(state), do: {:consumer, state}
 
-        def start_link(), do: GenStage.start_link(ConsumerSpy, [])
-        def init(state), do: {:consumer, state}
+  def handle_events(events, _from, state) do
+    # Simulate load
+    Process.sleep(10)
+    {:noreply, [], [events | state]}
+  end
 
-        def handle_events(events, _from, state) do
-          # Simulate load
-          Process.sleep(10)
-          {:noreply, [], [events | state]}
-        end
+  def handle_call(:get, _from, state) do
+    {:reply, Enum.flat_map(state, & &1), [], state}
+  end
+end
 
-        def handle_call(:get, _from, state) do
-          {:reply, Enum.flat_map(state, & &1), [], state}
-        end
-      end
+{:ok, datasource} = Datasource.start_link( 0, fn(state) -> { state, state + 1 } end)
+{:ok, producer} = Datasource.DataStage.start_link(datasource)
+{:ok, consumer} = ConsumerSpy.start_link()
 
-      {:ok, datasource} = Datasource.start_link( 0, fn(state) -> { state, state + 1 } end)
-      {:ok, producer} = Datasource.DataStage.start_link(datasource)
-      {:ok, consumer} = ConsumerSpy.start_link()
+GenStage.sync_subscribe(consumer, to: producer, max_demand: 1)
+Process.sleep(100)
 
-      GenStage.sync_subscribe(consumer, to: producer, max_demand: 1)
-      Process.sleep(100)
-
-      ConsumerSpy.call(consumer, :get)
-      # => [0,1,2,3,...10]
-
-
-  {% endhighlight %}
+ConsumerSpy.call(consumer, :get)
+# => [0,1,2,3,...10]
+```
 
 
 [Elixir]: https://elixir-lang.org/
@@ -66,5 +63,5 @@ can be used as [GenStage producer][], reading data from a `Datasource` on demand
 [GenStage producer]: https://github.com/elixir-lang/gen_stage
 [Source on Github]: https://github.com/iboard/data_source
 [Hex-package]: https://hex.pm/packages/data_source
-[Raspberry Experiments]: {{ site.baseurl }}{% post_url 2018-08-26-NervesRpi3 %}
+[Raspberry Experiments]: /posts/2018/08-26-NervesRpi3
 
