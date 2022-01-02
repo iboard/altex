@@ -6,6 +6,9 @@
 ---
 ## Welcome in the year 2022! 
 
+<figure><img src="/images/2022/01-02-Welcome22.png" alt="Sunrise on January 1st
+2022, Ansfelden Austria"/><figcaption>My first view of the rising sun in 2022</figcaption></figure>
+
 Just the perfect time to start a new round of my blog.
 
 This time, I'm using Elixir and Phoenix. And as before with PHP, Ruby, Java, and 
@@ -14,8 +17,8 @@ what not, this blog exists only as a playground for my developments.
 Don't expect any continuous thread or topic. Mostly I'll post here because
 I have to test some new feature -- not because I've something to say.
 
-Nevertheless, you may find some useful hints, code fragments, and the one or
-other "wise advise."
+Nevertheless, you may find some useful hints, code fragments, and the one or the 
+other “wise advise.”
 
 Have fun browsing altex.iboard.cc!
 
