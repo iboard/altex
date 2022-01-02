@@ -6,8 +6,7 @@
 ---
 ## Welcome in the year 2022! 
 
-<figure><img src="/images/2022/01-02-Welcome22.png" alt="Sunrise on January 1st
-2022, Ansfelden Austria"/><figcaption>My first view of the rising sun in 2022</figcaption></figure>
+<figure><img src="/images/2022/01-02-Welcome22.png" alt="Sunrise on January 1st 2022, Ansfelden Austria"/><figcaption>My first view of the rising sun in 2022</figcaption></figure>
 
 Just the perfect time to start a new round of my blog.
 
@@ -22,6 +21,5 @@ other “wise advise.”
 
 Have fun browsing altex.iboard.cc!
 
-You can find the code for this web site at 
-<a href="https://github.com/iboard/altex">Github/iboard</a>.
+You can find the code for this web site at [Github](https://github.com/iboard/altex).
 
