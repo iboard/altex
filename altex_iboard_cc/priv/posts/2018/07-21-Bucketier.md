@@ -16,7 +16,7 @@ It is in a very early stage, and a lot of work will be necessary to make it a ma
 
 ## Usage
 
-```
+```elixir
 Bucket.bucket("shopping list")
  |> Bucket.put(1, "Milk")
  |> Bucket.put(2, "Bread")
