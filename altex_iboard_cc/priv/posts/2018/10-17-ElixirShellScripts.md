@@ -1,7 +1,8 @@
 %{
   title: "Elixir script the shell",
   date: "Wed Oct 17 09:38:19 CEST 2018",
-  tags: ["andi", "2018", "elixir", "dev"]
+  author: "Andi",
+  tags: ["andi", "2018", "elixir", "dev", "shell"]
 }
 ---
 ### I'm using Elixir as a scripting language for the shell

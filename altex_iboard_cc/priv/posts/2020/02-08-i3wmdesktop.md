@@ -1,6 +1,6 @@
 %{
   title:  "New i3 based Linux Workstation",
-  date: "Sat 08 Feb 2020 01:00:44 AM CET",
+  author: "Andi",
   tags: ["2020", "andi", "linux", "i3"]
 }
 ---

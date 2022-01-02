@@ -1,8 +1,7 @@
 %{
 title:  "Welcome at EC2",
-date:   "Fri Jul 13 14:38:32 CEST 2018",
 author: "Andi",
-tags: ~w/andi blog draft 2018/
+tags: ~w/andi blog draft 2018 obsolete/
 }
 ---
 

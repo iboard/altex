@@ -1,6 +1,7 @@
 %{
 title:  "Phoenix LiveView and Internet Explorer",
 date: "Wed Jul 17 08:50:59 CEST 2019",
+author: "Andi",
 tags: ["2019", "andi", "elixir", "phoenix", "liveview"]
 }
 ---

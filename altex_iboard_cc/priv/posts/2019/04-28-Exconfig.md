@@ -1,10 +1,12 @@
 %{
-  title: "Exconfig, A Configuration Cache For Elixir",
+  title: "Exconfig -- Configuration Cache For Elixir",
   author: "Andi",
-  date: "Sun Apr 28 13:07:04 CEST 2019",
-  tags: ["2019", "dev", "andi", "elixir", "project", "exconfig", "hex"]
+  tags: ["2019", "dev", "obsolete", "andi", "elixir", "project", "exconfig", "hex"]
 }
 ---
+<p class="alert alert-danger">OBSOLETE! Today there are better ways to deal with
+your config.</p>
+
 Today, I wrote my fourth HEX-package and published it on "hex.pm".
 
   * [Exconfig at hex.pm](https://hex.pm/packages/exconfig)

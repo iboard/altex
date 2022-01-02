@@ -11,31 +11,32 @@
 
 In your HTML-code find and replace
 
-
-       <html>
-         <head>
-         ...
-          <link rel="icon" 
-                href="/favicon.ico" 
-                type="image/x-icon"/>
-         ...
-         </head>
-         ...
-       </html>
-
+```html
+<html>
+  <head>
+  ...
+   <link rel="icon" 
+         href="/favicon.ico" 
+         type="image/x-icon"/>
+  ...
+  </head>
+  ...
+</html>
+```
 
 with
 
-
-       <html>
-         <head>
-         ...
-          <link rel="icon" 
-                href="/favicon.ico?v=201902112029" <---- put a timestamp here
-                type="image/x-icon"/>
-         </head>                              
-         ...
-       </html>
+```html
+<html>
+  <head>
+  ...
+   <link rel="icon" 
+         href="/favicon.ico?v=201902112029" <---- put a timestamp here
+         type="image/x-icon"/>
+  </head>                              
+  ...
+</html>
+```
 
 
 and change the timestamp, every time you publish a new favicon.ico-file.
@@ -44,17 +45,19 @@ This is still the simplest way to force browsers to reload the icon.
 Using some kind of a web-framework, automating this step in a template
 should be easy. Some pseudo code looks like this
 
-       <html>
-         <head>
-         ...
-          <link rel="icon" 
-                href="/favicon.ico?v=<%= buildtime_parameter() %> 
-                type="image/x-icon"
-          />
-         ...                                  
-         </head>                             
-         ...
-       </html>
+```html
+<html>
+  <head>
+  ...
+   <link rel="icon" 
+         href="/favicon.ico?v=<%= buildtime_parameter() %> 
+         type="image/x-icon"
+   />
+  ...                                  
+  </head>                             
+  ...
+</html>
+```
 
 _Happy coding!_
 

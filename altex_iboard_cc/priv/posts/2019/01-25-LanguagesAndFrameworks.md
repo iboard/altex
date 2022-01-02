@@ -1,6 +1,7 @@
 %{
   title: "Frameworks and Languages",
   date: "Fri Jan 25 19:27:46 CET 2019",
+  author: "Andi", 
   tags: ["andi", "2019", "craft"]
 }
 ---

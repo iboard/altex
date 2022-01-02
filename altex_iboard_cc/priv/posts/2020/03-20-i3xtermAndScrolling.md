@@ -1,6 +1,7 @@
 %{
   title:  "i3wm And Natural Scrolling",
   date: "Fri 20 Mar 2020 01:15:54 PM CET",
+  author: "Andi",
   tags: ["2020", "andi", "linux", "i3"]
 }
 ---

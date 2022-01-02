@@ -1,7 +1,7 @@
 %{
   title: "Command Line Pro Tip",
   date: "Mon Oct  8 18:58:44 CEST 2018",
-  tags: ["andi", "2018", "util", "dev"]
+  tags: ["andi", "2018", "util", "dev", "bash"]
 }
 ---
 Did you know that almost any shell uses the READLINE library?

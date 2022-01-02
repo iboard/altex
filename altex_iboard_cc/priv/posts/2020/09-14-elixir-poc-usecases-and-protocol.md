@@ -1,6 +1,7 @@
 %{
   title:  "Elixir Protocol For Usecases",
   date: "Mon Sep 14 10:52:23 AM CEST 2020",
+  author: "Andi",
   tags: ["2020", "andi", "elixir"]
 }
 ---

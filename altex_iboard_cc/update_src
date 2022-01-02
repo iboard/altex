@@ -4,17 +4,9 @@ rsync -av ../ax_webclient/lib         \
           ../ax_webclient/assets      \
           ../ax_webclient/priv        \
           ../ax_webclient/README.md   \
-          ../ax_webclient/_build      \
-          ../ax_webclient/assets      \
           ../ax_webclient/config      \
-          ../ax_webclient/deps        \
-          ../ax_webclient/lib         \
           ../ax_webclient/mix.exs     \
-          ../ax_webclient/mix.lock    \
-          ../ax_webclient/priv        \
-          ../ax_webclient/rel         \
           ../ax_webclient/test        \
           ./
-
 
 

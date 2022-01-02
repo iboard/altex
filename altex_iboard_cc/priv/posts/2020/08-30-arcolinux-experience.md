@@ -1,6 +1,7 @@
 %{
 title:  "ArchLinux - My Experience So Far",
 date: "Sun Aug 30 09:44:50 AM CEST 2020",
+author: "Andi",
 tags: ["2020", "andi", "linux", "i3"]
 }
 ---

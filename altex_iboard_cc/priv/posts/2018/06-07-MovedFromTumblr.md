@@ -1,10 +1,9 @@
 %{ 
   title: "I moved my blog from Tumblr to Jekyll",
-  date: "Sat Jul  7 19:17:55 CEST 2018",
-  tags: ["about", "jekyll", "blog", "2018"]
+  tags: ["about", "jekyll", "blog", "2018", "obsolete", "andi"],
+  author: "Andi"
 }
 ---
-
 # Goodbye Tumblr?
 
 Today I successfully imported my Tumblr-blog,
@@ -21,13 +20,11 @@ My blog will officially move to my E2C instance soon.
 Let's test some behaviour. Unfortunatelly, imported posts
 doesn't support code-highlighting. Will new posts?
 
-  {% highlight elixir %}
-  defmodule TestHighlighter do
-    def hello do
-      IO.puts "Hello, World!"
-    end
+```elixir
+defmodule TestHighlighter do
+  def hello do
+    IO.puts "Hello, World!"
   end
-  {% endhighlight %}
+end
+```
 
-😎 it works! with 
-`{% raw %}{% highlight elixir %} .. {% endhighlight %}{% endraw %}`

@@ -1,17 +1,20 @@
 %{
-  title: "hex packages 0.1.0 published",
+  title: "hex packages 0.1.1 published",
   author: "Andi",
   tags: ["andi", "2021", "altex", "hex"]
 }
 ---
-# Version 0.1.0 released (2021-12-19)
-# Version 0.1.1 released (2021-12-20)
+# Version 0.1.1 released 
 
-There is no difference in the code between 0.1.0 and 0.1.1. 0.1.1 was necessary
-to fix relations between the documentation of three packages.
+- Version 0.1.0 released (2021-12-19)
+- Version 0.1.1 released (2021-12-20)
 
-The first "releasable" versions of `axrepo`, `axentity`, and `ax_webclient`
-are published at hex.pm
+There is no difference in the code between 0.1.0 and 0.1.1. 
+But _0.1.1_ was necessary to fix relations between the documentations
+of the three packages.
+
+**The first "releasable" versions of `axrepo`, `axentity`, and `ax_webclient`
+are published at hex.pm**
 
 
 |mix project|CI|documentation|

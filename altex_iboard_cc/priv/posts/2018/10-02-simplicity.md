@@ -1,6 +1,7 @@
 %{ 
   title: "Best Wrist-Protection for older iPads",
   date: "Tue Oct  2 13:09:53 CEST 2018",
+  author: "Andi",
   tags: ["andi", "2018", "simplicity"]
 }
 ---

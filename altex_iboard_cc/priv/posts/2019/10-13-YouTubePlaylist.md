@@ -1,7 +1,7 @@
 %{ 
   title:  "My YouTube Playlist",
   date: "Sun Oct 13 10:42:47 CEST 2019",
-  tags: ["2019", "andi", "elixir", "phoenix"]
+  tags: ["2019", "andi", "elixir", "phoenix", "video"]
 }
 ---
 [![My YouYube Playlist](/assets/posts/2019/youtube_playlist.png){:width="33%"}](https://www.youtube.com/playlist?list=PLj4n0YSbZVe-RqTrFDc5dv5C1E_GWd5Vy){:target="-blank"}
