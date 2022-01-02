@@ -22,7 +22,6 @@ other “wise advise.”
 
 Have fun browsing altex.iboard.cc!
 
----
-You can find the code for this web site at
-[Github](https://github.com/iboard/altex)
+You can find the code for this web site at 
+<a href="https://github.com/iboard/altex">Github/iboard</a>.
 
