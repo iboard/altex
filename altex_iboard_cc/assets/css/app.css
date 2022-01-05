@@ -139,8 +139,8 @@ figure img {
   @apply shadow-md rounded-sm;
 }
 
-*.font-bold { 
-  background: magenta;
+*.preview-first-text {
+  @apply font-semibold block text-gray-400;
 }
 
 /* Original Phonix.css stuff. Maybe removed soon */
