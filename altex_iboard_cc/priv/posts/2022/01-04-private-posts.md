@@ -1,20 +1,20 @@
 %{
-  title: "Private Posts",
-  author: "Andi",
-  tags: ~w/andi 2022 blog altex/
+  title: "ax -- private posts",
+  author: "andi",
+  tags: ~w/andi 2022 blog altex ax/
 }
 ---
-# New Feature "Private Posts"
+# new feature "private posts"
 
-Now you can add the tag `private:` as a list of atoms. Each atom
-can represent a username. The post will be visible for any user in
+now you can add the tag `private:` as a list of atoms. each atom
+can represent a username. the post will be visible for any user in
 this list.
 
-### Example
+### example
 ```elixir
 %{
-  title: "Private Posts",
-  author: "Andi",
+  title: "private posts",
+  author: "andi",
   tags: ~w/andi 2022 blog/,
   draft: true,
   private: ~w/admin andi/a
