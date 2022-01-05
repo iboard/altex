@@ -10,6 +10,23 @@ I just registered for the [ElixirConf 2018][]®. See you there!
 
 I'll travel from FRA to SEA on Sep 4th. Leave a message if we can meet for the journey.
 
+### Back from Seattle
+
+It was a gorgeous time and I'm exited to work with Elixir for the
+next project.
+
+Other than that, I had a lot of fun, meeting "old friends".
+
+![José Valim & Andi Altendorfer](/images/2018/elixir2018-03.jpeg)
+
+#### Selfie Chain
+
+![@tenderlove, "Picasso", & Andi Altendorfer](/images/2018/elixir2018-04.jpeg)
+
+
+![Andi Altendorfer arrived at the ElixirConf](/images/2018/elixir2018-01.jpeg)
+
+![Seattle](/images/2018/elixir2018-02.jpeg)
 
 [ElixirConf 2018]: https://elixirconf.com/
 

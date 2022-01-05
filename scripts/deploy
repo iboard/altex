@@ -10,3 +10,4 @@ cd altex_iboard_cc \
 
 awssh /home/ec2-user/iboard.cc/upgrade-altex
 awssh docker ps | grep altex
+awssh docker system prune -f

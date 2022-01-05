@@ -1,7 +1,7 @@
 %{
 title:  "Welcome at EC2",
 author: "Andi",
-tags: ~w/andi blog draft 2018 obsolete/
+tags: ~w/andi blog 2018 obsolete/
 }
 ---
 

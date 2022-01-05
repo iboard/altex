@@ -14,7 +14,7 @@ This time, I'm using Elixir and Phoenix. And as before with PHP, Ruby, Java, and
 what not, this blog exists only as a playground for my developments. 
 
 Don't expect any continuous thread or topic. Mostly I'll post here because
-I have to test some new feature -- not because I've something to say.
+I want test a new feature -- not because I wanna say something _;-)_
 
 Nevertheless, you may find some useful hints, code fragments, and the one or the 
 other “wise advise.”
