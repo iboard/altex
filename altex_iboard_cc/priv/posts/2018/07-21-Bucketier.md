@@ -5,6 +5,8 @@ date: "Sat Jul 21 18:02:18 CEST 2018",
 tags: ["2018", "dev", "andi", "elixir", "project", "bucketier", "hex"]
 }
 ---
+<img style="width: 200px" align="right" src="https://hexdocs.pm/bucketier/assets/logo.png" />
+
 Today, I wrote my first HEX-package and published it on "hex.pm".
 It is an extract of my daily work and was part of an "Umbrella-App" initially.
 

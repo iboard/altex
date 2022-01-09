@@ -5,7 +5,9 @@
 }
 ---
 
-First of all, I need to express my anger about the latest Apple developments. The story starts with a broken keyboard in a 2017 MacBook Pro. Apple will replace the keyboard without costs, but they will take it for two to four weeks. So, I found one of my old MacBooks (2011) will do an excellent job for this time. Only, there was MacOS Sierra, not even High Sierra installed. And with Sierra, I can't run all of the application I use on my 2017 MacBook. Ok, I started to update to at least High Sierra which crashed in the middle of it because of a power outage. And then, and then, the Mac didn't find any hard disks anymore.
+First of all, I need to express my anger about the latest Apple developments. The story starts with a broken keyboard in a 2017 MacBook Pro.
+
+Apple will replace the keyboard without costs, but they will take it for two to four weeks. So, I found one of my old MacBooks (2011) will do an excellent job for this time. Only, there was MacOS Sierra, not even High Sierra installed. And with Sierra, I can't run all of the application I use on my 2017 MacBook. Ok, I started to update to at least High Sierra which crashed in the middle of it because of a power outage. And then, and then, the Mac didn't find any hard disks anymore.
 
 Sure, I was shocked! But wait!
 

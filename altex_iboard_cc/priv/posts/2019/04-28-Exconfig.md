@@ -4,8 +4,7 @@
   tags: ["2019", "dev", "obsolete", "andi", "elixir", "project", "exconfig", "hex"]
 }
 ---
-<p class="alert alert-danger">OBSOLETE! Today there are better ways to deal with
-your config.</p>
+<p class="alert alert-danger">OBSOLETE! Today there are better ways to deal with your config.</p>
 
 Today, I wrote my fourth HEX-package and published it on "hex.pm".
 
