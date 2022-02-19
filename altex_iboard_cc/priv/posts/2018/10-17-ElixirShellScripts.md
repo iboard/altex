@@ -11,7 +11,7 @@ And it's that easy ...
 
 Write a file, `hello.exs` for example.
 
-{% highlight elixir %}
+```elixir
 #!/usr/bin/env elixir
 defmodule Greeter do
   def hello(name), do: IO.puts "Hello, #{name}!"
@@ -19,7 +19,7 @@ end
 
 # Main
 Greeter.hello( hd(System.argv() )
-{% endhighlight %}
+```
 
 Don't forget to `chmod +x hello.exs` and then use the script from
 the terminal with

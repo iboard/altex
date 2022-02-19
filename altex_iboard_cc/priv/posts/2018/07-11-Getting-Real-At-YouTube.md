@@ -1,7 +1,7 @@
 %{
   title: "Getting Real @ YouTube",
   date: "Sat Jul  11 19:17:55 CEST 2018",
-  tags: ["misc", "podcasts"],
+  tags: ["misc", "podcasts", "2018"],
   author: "Andi"
 }
 ---

@@ -1,6 +1,6 @@
 %{ 
   title: "I moved my blog from Tumblr to Jekyll",
-  tags: ["about", "jekyll", "blog", "2018", "obsolete", "andi"],
+  tags: ["attic", "2018", "obsolete"],
   author: "Andi"
 }
 ---
