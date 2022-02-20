@@ -75,5 +75,5 @@ warnings this mix dependencies are working fine for me.
 ```
 
 
-[1]: http://orf.at
-[2]: http://orf.at
+[1]: https://github.com/pragdave/earmark
+[2]: https://github.com/dashbitco/nimble_publisher 
