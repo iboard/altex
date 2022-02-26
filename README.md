@@ -28,6 +28,7 @@ mix-projects. Something like a mix-ubrella project but without the umbrella ;-)
 | [axentity][] | [![CIB axentity][]](https://github.com/iboard/axentity/actions/workflows/elixir.yml) | [![DB axentity][]](https://hexdocs.pm/axentity) |
 | [axrepo][] | [![CIB axrepo][]](https://github.com/iboard/axrepo/actions/workflows/elixir.yml) | [![DB axrepo][]](https://hexdocs.pm/axrepo) |
 | [ax_webclient][] | [![CIB ax_webclient][]](https://github.com/iboard/ax_webclient/actions/workflows/elixir.yml) | [![DB ax_webclient][]](https://hexdocs.pm/ax_webclient) |
+| [ax_stateserver][] | [![CIB ax_stateserver][]](https://github.com/iboard/state_server/actions/workflows/elixir.yml) | [![DB ax_stateserver][]](https://hexdocs.pm/ax_webclient) |
 
  
 ## Hex Packages
@@ -35,6 +36,7 @@ mix-projects. Something like a mix-ubrella project but without the umbrella ;-)
 - [axentity hex.pm][]
 - [axrepo hex.pm][]
 - [ax_webclient hex.pm][]
+- [ax_stateserver hex.pm][]
 
 
 ## Blog
@@ -56,6 +58,10 @@ of `ax_webclient` but with the posts added in `priv/posts/...`.
 [ax_webclient]: https://github.com/iboard/ax_webclient
 [CIB ax_webclient]: https://github.com/iboard/ax_webclient/actions/workflows/elixir.yml/badge.svg
 [DB ax_webclient]: https://img.shields.io/badge/docs-hexpm-blue.svg
+
+[ax_stateserver]: https://github.com/iboard/state_server
+[CIB ax_stateserver]: https://github.com/iboard/state_server/actions/workflows/elixir.yml/badge.svg
+[DB ax_stateserver]: https://img.shields.io/badge/docs-hexpm-blue.svg
 
 [NimblePublisher]: https://github.com/dashbitco/nimble_publisher
 [Altex' Blog]: https://altex.iboard.cc
