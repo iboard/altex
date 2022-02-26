@@ -6,3 +6,4 @@ Dockerfile
 ax_webclient/
 axentity/
 axrepo/
+state_server/
