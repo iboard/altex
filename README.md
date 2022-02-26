@@ -2,7 +2,7 @@
 
 
 _Altex_ is a bunch of independent _mix-projects_ which works together to support
-a clean architecture in your application.
+a clean architecture in your code.
 
 This repository, "altex" contains scripts to test, build, and deploy all of the
 mix-projects. Something like a mix-ubrella project but without the umbrella ;-)
@@ -20,6 +20,8 @@ mix-projects. Something like a mix-ubrella project but without the umbrella ;-)
 - `../[ax_webclient][]` This package. 
 - [See in action at altex.iboarc.cc](https://altex.iboard.cc)
   The web-page made out from path `altex/altex_iboard_cc` in this code repository.
+  
+- `../[state_server][]` macro-sugar for GenServers. 
   
 ### Project states
 
