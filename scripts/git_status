@@ -8,7 +8,7 @@ else
   DIRECTORY=$1
 fi
 
-MIX_PROJECTS=`ls -1d ${DIRECTORY}/${PREFIX}*`
+MIX_PROJECTS="`ls -1d ${DIRECTORY}/${PREFIX}*` ${DIRECTORY}/state_server"
 
 for PROJECT in ${MIX_PROJECTS}; do
 
