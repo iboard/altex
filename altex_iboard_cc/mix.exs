@@ -20,7 +20,7 @@ defmodule WebClient.MixProject do
 
   def project do
     [
-      app: :web_client,
+      app: :ax_webclient,
       version: "0.1.1",
       elixir: "~> 1.13",
       elixirc_paths: elixirc_paths(Mix.env()),
@@ -82,6 +82,7 @@ defmodule WebClient.MixProject do
       {:jason, "~> 1.2"},
       {:plug_cowboy, "~> 2.5"},
       # Blog
+      {:tailwind, "~> 0.1", only: [:dev,:prod]},
       {:nimble_publisher, "~> 0.1"},
       {:makeup_elixir, ">= 0.0.0"},
       {:makeup_erlang, ">= 0.0.0"},
