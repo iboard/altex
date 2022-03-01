@@ -40,7 +40,7 @@ seamlessly and straight forward.
 
 I'll give it one or two weeks more before I'll make a decision if to stay with it or not.
 
-*A dangerous kitchen*, it may end where it ever ends. On plain old paper ::fears::
+*A dangerous kitchen*, it may end where it ever ends. On plain old paper ==fears==
 
 
 [Obsidian]: https://obsidian.md
